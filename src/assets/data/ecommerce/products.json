@@ -74,15 +74,15 @@
         "variants": [
             {
                 "color": "brown",
-                "images": "assets/images/inner-page/category/2.jpg"
+                "images": "assets/images/nandessentialsproducts/missirotif.png"
             },
             {
                 "color": "gold",
-                "images": "assets/images/inner-page/category/10.jpg"
+                "images": "assets/images/nandessentialsproducts/missirotif.png"
             },
             {
                 "color": "darkseagreen",
-                "images": "assets/images/inner-page/category/14.jpg"
+                "images": "assets/images/nandessentialsproducts/missirotif.png"
             }
         ]
     },

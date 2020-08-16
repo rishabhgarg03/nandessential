@@ -18,13 +18,13 @@ export class EcommerceBannerSliderComponent implements OnInit {
       btn: 'Collection',
       link: '/e-commerce/left-sidebar/collection/new'
     },
-    {
-      img: 'assets/images/home1.jpg',
-      title: 'Exclusive Offer',
-      description: 'I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.',
-      btn: 'Offer',
-      link: '/e-commerce/left-sidebar/collection/trending'
-    }
+    // {
+    //   img: 'assets/images/home1.jpg',
+    //   title: 'Exclusive Offer',
+    //   description: 'I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.',
+    //   btn: 'Offer',
+    //   link: '/e-commerce/left-sidebar/collection/trending'
+    // }
   ]
 
   ecombannerOptions = {
