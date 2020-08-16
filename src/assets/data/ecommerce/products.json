@@ -1,0 +1,317 @@
+[
+    {
+        "id": 1,
+        "img": "assets/images/nandessentialsproducts/magicmasalaf.png",
+        "name": "Magic Masala",
+        "note": "Simply dummy text of the printing",
+        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        
+        "status": "none",
+        "stock": 5,
+        "review": "(250 review)",
+        "category": "new",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "0.5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Milton",
+            "NanoNine",
+            "Cello"
+        ],
+        "variants": [
+            {
+                "color": "black",
+                "images": "assets/images/inner-page/category/1.jpg"
+            },
+            {
+                "color": "darkslategray",
+                "images": "assets/images/inner-page/category/8.jpg"
+            },
+            {
+                "color": "saddlebrown",
+                "images": "assets/images/inner-page/category/9.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "img": "assets/images/nandessentialsproducts/missirotif.png",
+        "name": "Missi Roti",
+        "note": "Simply dummy text of the printing",
+        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+        
+        "status": "sale",
+        "stock": 5,
+        "review": "(250 review)",
+        "new": false,
+        "sale": false,
+        "category": "new",
+        "colors": [
+            "brown",
+            "gold",
+            "darkseagreen"
+        ],
+        "size": [
+            "0.5L",
+            "1L"
+        ],
+        "tags": [
+            "Kingfisher",
+            "Tuborg",
+            "Carlsberg",
+            "Budweiser",
+            "Heineken"
+        ],
+        "variants": [
+            {
+                "color": "brown",
+                "images": "assets/images/inner-page/category/2.jpg"
+            },
+            {
+                "color": "gold",
+                "images": "assets/images/inner-page/category/10.jpg"
+            },
+            {
+                "color": "darkseagreen",
+                "images": "assets/images/inner-page/category/14.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "img": "assets/images/nandessentialsproducts/panipurif.png",
+        "name": "Pani Puri",
+        "note": "Simply dummy text of the printing",
+        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+       
+        "status": "none",
+        "stock": 5,
+        "review": "(250 review)",
+        "new": true,
+        "sale": false,
+        "category": "trending",
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black",
+            "blue"
+        ],
+        "size": [
+            "0.5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "LAKMÉ",
+            "Miss Rose",
+            "VikriDA"
+        ],
+        "variants": [
+            {
+                "color": "darkred",
+                "images": "assets/images/inner-page/category/12.jpg"
+            },
+            {
+                "color": "saddlebrown",
+                "images": "assets/images/inner-page/category/4.jpg"
+            },
+            {
+                "color": "darkgreen",
+                "images": "assets/images/inner-page/category/15.jpg"
+            },
+            {
+                "color": "black",
+                "images": "assets/images/inner-page/category/16.jpg"
+            }
+            
+        ]
+    },
+    {
+        "id": 4,
+        "img": "assets/images/nandessentialsproducts/raseelikheerf.png",
+        "name": "Raseeli Kheer",
+        "note": "Simply dummy text of the printing",
+        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+       
+        "status": "50%",
+        "stock": 5,
+        "review": "(250 review)",
+        "new": false,
+        "sale": true,
+        "category": "trending",
+        "colors": [
+            "steelblue",
+            "bisque",
+            "darkorange"
+        ],
+        "size": [
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Nescafé",
+            "Folgers",
+            "MaxwellHouse"
+        ],
+        "variants": [
+            {
+                "color": "steelblue",
+                "images": "assets/images/inner-page/category/3.jpg"
+            },
+            {
+                "color": "bisque",
+                "images": "assets/images/inner-page/category/6.jpg"
+            },
+            {
+                "color": "darkorange",
+                "images": "assets/images/inner-page/category/7.jpg"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "img": "assets/images/nandessentialsproducts/thandaif.png",
+        "name": "Thandai",
+        "note": "Simply dummy text of the printing",
+        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+      
+        "status": "none",
+        "stock": 5,
+        "review": "(250 review)",
+        "category": "trending",
+        "new": true,
+        "sale": false,
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black"
+        ],
+        "size": [
+            "0.5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Milton",
+            "NanoNine",
+            "Cello"
+        ],
+        "variants": [
+            {
+                "color": "darkslategray",
+                "images": "assets/images/inner-page/category/8.jpg"
+            },
+            {
+                "color": "black",
+                "images": "assets/images/inner-page/category/1.jpg"
+            },
+            {
+                "color": "saddlebrown",
+                "images": "assets/images/inner-page/category/9.jpg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "img": "assets/images/inner-page/category/10.jpg",
+        "name": "Beer Bottle",
+        "note": "Simply dummy text of the printing",
+        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+       
+        "status": "sale",
+        "stock": 5,
+        "review": "(250 review)",
+        "new": false,
+        "sale": false,
+        "category": "trending",
+        "colors": [
+            "brown",
+            "gold",
+            "darkseagreen"
+        ],
+        "size": [
+            "0.5L",
+            "1L",
+            "2L"
+        ],
+        "tags": [
+            "Kingfisher",
+            "Tuborg",
+            "Carlsberg",
+            "Budweiser",
+            "Heineken"
+        ],
+        "variants": [
+            {
+                "color": "gold",
+                "images": "assets/images/inner-page/category/10.jpg"
+            },
+            {
+                "color": "brown",
+                "images": "assets/images/inner-page/category/2.jpg"
+            },
+            {
+                "color": "darkseagreen",
+                "images": "assets/images/inner-page/category/14.jpg"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "img": "assets/images/inner-page/category/12.jpg",
+        "name": "Cosmetic Bottle",
+        "note": "Simply dummy text of the printing",
+        "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+       
+        "status": "none",
+        "stock": 5,
+        "review": "(250 review)",
+        "new": true,
+        "sale": false,
+        "category": "trending",
+        "colors": [
+          "darkslategray",
+          "saddlebrown",
+          "black",
+            "blue"
+        ],
+        "size": [
+            "0.5L",
+            "2L"
+        ],
+        "tags": [
+            "LAKMÉ",
+            "Miss Rose",
+            "VikriDA"
+        ],
+        "variants": [
+            {
+                "color": "darkred",
+                "images": "assets/images/inner-page/category/12.jpg"
+            },
+            {
+                "color": "saddlebrown",
+                "images": "assets/images/inner-page/category/4.jpg"
+            },
+            {
+                "color": "darkgreen",
+                "images": "assets/images/inner-page/category/15.jpg"
+            },
+            {
+                "color": "black",
+                "images": "assets/images/inner-page/category/16.jpg"
+            }
+        ]
+    }
+    
+    
+]
