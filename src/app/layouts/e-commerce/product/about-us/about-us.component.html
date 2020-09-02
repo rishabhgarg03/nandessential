@@ -1,0 +1,178 @@
+<!-- about section Start-->
+<app-ecommerce-header></app-ecommerce-header>
+<section class="gym format">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2">
+                <div class="center-text">
+                    <div class="text-center">
+                        <div class="format-head-text">
+                            <h3 class="about-font-header gradient-text">about us</h3>
+                        </div>
+                        <div class="format-sub-text mb-0">
+                            <p class="p-light about-para text-left">
+                                In 1961 Late Shri Jamuna Prashad laid the foundaon of “NAND SWEETS” to embark
+                                on the journey for his many generaons to come. Now being run by his thirdgeneraon, Nand sweets as a brand has always been associated with purity and
+                                perfecon as its pillars, to deliver its customers the best possible products. <br>
+                                Aer the wide success of Nand Sweets, our biggest advocates being our customers
+                                who lived far and near to our locaons always asked us for the secret ingredients to
+                                our recipes so that they could take home the taste of our speciales and enjoy it with
+                                their families and friends. Mr. Anand Kishore Aggarwalfelt the need to share this with
+                                the world and came up with “ NAND ESSENTIALS” under the umbrella of our Nand
+                                Sweets, and launched a range of ready to make products that give the ease of making
+                                restaurant-quality tradional speciales in a maer of minutes at their own home. <br>
+                                Nand Essenals brings to you a diversity of taste with an exclusive range of ready-tomake products. While many of these products are now easily available today, our
+                                move is to offer exceponally rich flavours and taste that not only awakens the
+                                palee but are also made from premium quality ingredients and are without colour &
+                                preservaves. Our handcraed speciales include Sweet and Sour Saunth Chutney,
+                                Pithi Puri Masala, Raseeli Kheer, Magic Masala, Thandai, Jaljeera, and Missi Ro Mix.
+                                Our blends are designed to bring just the right balance of richness of flavour to provide
+                                a unique taste and to brighten your day!
+                                
+                                                    </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section end-->
+
+<section class="event testimonial set-relative bg about-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title title2 title-inner">
+                    <div class="main-title">
+                        <h2 class="font-primary borders text-center text-uppercase m-b-0">
+                            <span>Our Inventions</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-10 offset-md-1 margin-b">
+                <owl-carousel-o [options]="aboutTestimonialCarouselOptions" class="testimonial">
+                    <ng-container *ngFor="let user of aboutTestimonial">
+                        <ng-template carouselSlide >
+                            <div class="p-t-30">
+                            <div class="col-lg-10 offset-lg-1 col-12">
+                                <div class="row">
+                                    <div class="col-xl-3 col-sm-4">
+                                        <div class="testimonial-msg set-relative">
+                                            <img [src]="user.img" alt=""
+                                                class="img-fluid avtar-img">
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-9 col-sm-8">
+                                        <div class="quotes set-relative m-b-30">
+                                            <img src="assets/images/event/testimonial/i1.png" alt=""
+                                                class="img-fluid set-abs left-quote">
+                                            <div class="quote-text">
+                                                <h5>{{user.content}}</h5>
+                                            </div>
+                                            <img src="assets/images/event/testimonial/i2.png" alt=""
+                                                class="img-fluid set-abs right-quote">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="event speaker set-relative" id="speaker">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title title2 title-inner">
+                    <div class="main-title">
+                        <h2 class="font-primary borders text-center text-uppercase m-b-0">
+                            <span>Our Speciality</span>
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 speker-container">
+                <div class="text-center">
+                    <div class="employee">
+                        <h5 class="e-name text-center">Exclusive Recipes
+                            & Best Quality</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 speker-container">
+                <div class="text-center">
+                    <div class="employee">
+                        <h5 class="e-name text-center">Nitrogen Packed
+                            for Freshness</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 speker-container">
+                <div class="text-center">
+                    <div class="employee">
+                        <h5 class="e-name text-center">No Preservaves</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6 speker-container">
+                <div class="text-center">
+                    <div class="employee">
+                        <h5 class="e-name text-center">Khadi Cerfied</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 
+<section class="resume counter bg-pink">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-6 counter-container">
+                <div class="counters">
+                    <img src="assets/images/resume/icon/1.png" alt="" class="img-fluid counter-img">
+                    <div class="counter-text">
+                        <h3 class="count-text counts">1510</h3>
+                        <h5 class="count-desc">Satisfied Customers</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-6 counter-container">
+                <div class="counters">
+                    <img src="assets/images/resume/icon/2.png" alt="" class="img-fluid counter-img">
+                    <div class="counter-text">
+                        <h3 class="count-text counts">306</h3>
+                        <h5 class="count-desc">Total Speaker</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-6 counter-container">
+                <div class="counters">
+                    <img src="assets/images/resume/icon/3.png" alt="" class="img-fluid counter-img">
+                    <div class="counter-text">
+                        <h3 class="count-text counts">48502</h3>
+                        <h5 class="count-desc">Hours Worked</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-6 counter-container">
+                <div class="counters">
+                    <img src="assets/images/resume/icon/4.png" alt="" class="img-fluid counter-img">
+                    <div class="counter-text">
+                        <h3 class="count-text counts">12</h3>
+                        <h5 class="count-desc">Awwards Winning</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<app-ecommerce-footer></app-ecommerce-footer>
+

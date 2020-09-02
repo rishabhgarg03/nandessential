@@ -7,6 +7,7 @@ import { CompareComponent } from './e-commerce/product/widget/compare/compare.co
 import { CartComponent } from './e-commerce/product/widget/cart/cart.component';
 import { CollectionLeftSidebarComponent } from './e-commerce/product/widget/collection/collection-left-sidebar/collection-left-sidebar.component';
 import { SuccessComponent } from './e-commerce/product/widget/success/success.component';
+import { AboutUsComponent } from './e-commerce/product/about-us/about-us.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,13 @@ const routes: Routes = [
   {
     path: 'e-commerce/checkout',
     component: CheckoutComponent,
+    data: {
+      title: "Checkout Page| Unice Landing Page"
+    }
+  },
+  {
+    path: 'e-commerce/about-us',
+    component: AboutUsComponent,
     data: {
       title: "Checkout Page| Unice Landing Page"
     }
@@ -63,6 +71,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+exports: [RouterModule]
 })
 export class LayoutsRoutingModule { }

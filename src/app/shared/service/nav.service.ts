@@ -54,7 +54,7 @@ export class NavService {
       ]
     },
     {
-      title: 'About Us', type: 'link',path: '/ourproduct'
+      title: 'About Us', type: 'link',path: '/about-us'
  },
  {
    title: 'Contact Us', type: 'link',path: '/ourproduct'

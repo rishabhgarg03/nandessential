@@ -44,15 +44,17 @@ import { NewProductComponent } from './e-commerce/product/widget/new-product/new
 import { ProductBoxComponent } from './e-commerce/product/widget/product-box/product-box.component';
 import { SuccessComponent } from './e-commerce/product/widget/success/success.component';
 import { NgxMasonryModule } from 'ngx-masonry';
+import { AboutUsComponent } from './e-commerce/product/about-us/about-us.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {};
 
 @NgModule({
   declarations: [
+    AboutUsComponent,
     ECommerceComponent, EcommerceBannerSliderComponent, EcommerceHeaderComponent, EcommerceProductSliderComponent, EcommerceParallaxBannerComponent, EcommerceProductTabComponent, EcommerceDownBannerComponent, EcommerceRecentStoryComponent, EcommerceFooterComponent, SidebarComponent, ProductDetailsComponent, ProductDetailComponent, CheckoutComponent, CompareComponent, CartComponent, CollectionLeftSidebarComponent, ColorComponent, BrandComponent, PriceComponent, CategoriesComponent, NewProductComponent, ProductBoxComponent, SuccessComponent],
 
   imports: [
-    CommonModule,
+  CommonModule,
     LayoutsRoutingModule,
     SwiperModule,
     CarouselModule,

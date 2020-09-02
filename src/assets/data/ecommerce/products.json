@@ -222,7 +222,7 @@
     },
     {
         "id": 6,
-        "img": "assets/images/inner-page/category/10.jpg",
+        "img": "assets/images/nandessentialsproducts/chutneyF.png",
         "name": "Beer Bottle",
         "note": "Simply dummy text of the printing",
         "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
@@ -253,21 +253,21 @@
         "variants": [
             {
                 "color": "gold",
-                "images": "assets/images/inner-page/category/10.jpg"
+                "images": "assets/images/nandessentialsproducts/chutneyF.png"
             },
             {
                 "color": "brown",
-                "images": "assets/images/inner-page/category/2.jpg"
+                "images": "assets/images/nandessentialsproducts/chutneyL.png"
             },
             {
                 "color": "darkseagreen",
-                "images": "assets/images/inner-page/category/14.jpg"
+                "images": "assets/images/nandessentialsproducts/chutneyR.png"
             }
         ]
     },
     {
         "id": 7,
-        "img": "assets/images/inner-page/category/12.jpg",
+        "img": "assets/images/nandessentialsproducts/pithiF.png",
         "name": "Cosmetic Bottle",
         "note": "Simply dummy text of the printing",
         "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
@@ -296,20 +296,17 @@
         "variants": [
             {
                 "color": "darkred",
-                "images": "assets/images/inner-page/category/12.jpg"
+                "images": "assets/images/nandessentialsproducts/pithiF.png"
             },
             {
                 "color": "saddlebrown",
-                "images": "assets/images/inner-page/category/4.jpg"
+                "images": "assets/images/nandessentialsproducts/pithiR.png"
             },
             {
                 "color": "darkgreen",
-                "images": "assets/images/inner-page/category/15.jpg"
-            },
-            {
-                "color": "black",
-                "images": "assets/images/inner-page/category/16.jpg"
+                "images": "assets/images/nandessentialsproducts/pithiL.png"
             }
+           
         ]
     }
     
