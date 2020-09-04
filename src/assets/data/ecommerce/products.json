@@ -30,22 +30,22 @@
         "variants": [
             {
                 "color": "black",
-                "images": "assets/images/inner-page/category/1.jpg"
+                "images": "assets/images/nandessentialsproducts/magicmasalaf.png"
             },
             {
                 "color": "darkslategray",
-                "images": "assets/images/inner-page/category/8.jpg"
+                "images": "assets/images/nandessentialsproducts/magicmasalaR.png"
             },
             {
                 "color": "saddlebrown",
-                "images": "assets/images/inner-page/category/9.jpg"
+                "images": "assets/images/nandessentialsproducts/magicmasalaL.png"
             }
         ]
     },
     {
         "id": 2,
         "img": "assets/images/nandessentialsproducts/missirotif.png",
-        "name": "Missi Roti",
+        "name": "Missi Roti Mix",
         "note": "Simply dummy text of the printing",
         "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
         
@@ -89,7 +89,7 @@
     {
         "id": 3,
         "img": "assets/images/nandessentialsproducts/panipurif.png",
-        "name": "Pani Puri",
+        "name": "Panipuri/Jaljeera",
         "note": "Simply dummy text of the printing",
         "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
        
@@ -118,19 +118,15 @@
         "variants": [
             {
                 "color": "darkred",
-                "images": "assets/images/inner-page/category/12.jpg"
+                "images": "assets/images/nandessentialsproducts/panipurif.png"
             },
             {
                 "color": "saddlebrown",
-                "images": "assets/images/inner-page/category/4.jpg"
+                "images": "assets/images/nandessentialsproducts/panipuriL.png"
             },
             {
                 "color": "darkgreen",
-                "images": "assets/images/inner-page/category/15.jpg"
-            },
-            {
-                "color": "black",
-                "images": "assets/images/inner-page/category/16.jpg"
+                "images": "assets/images/nandessentialsproducts/panipuriR.png"
             }
             
         ]
@@ -165,22 +161,22 @@
         "variants": [
             {
                 "color": "steelblue",
-                "images": "assets/images/inner-page/category/3.jpg"
+                "images": "assets/images/nandessentialsproducts/raseelikheerf.png"
             },
             {
                 "color": "bisque",
-                "images": "assets/images/inner-page/category/6.jpg"
+                "images": "assets/images/nandessentialsproducts/raseelikheerR.png"
             },
             {
                 "color": "darkorange",
-                "images": "assets/images/inner-page/category/7.jpg"
+                "images": "assets/images/nandessentialsproducts/raseelikheerL.png"
             }
         ]
     },
     {
         "id": 5,
         "img": "assets/images/nandessentialsproducts/thandaif.png",
-        "name": "Thandai",
+        "name": "Thandai Powder",
         "note": "Simply dummy text of the printing",
         "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
       
@@ -208,22 +204,22 @@
         "variants": [
             {
                 "color": "darkslategray",
-                "images": "assets/images/inner-page/category/8.jpg"
+                "images": "assets/images/nandessentialsproducts/thandaif.png"
             },
             {
                 "color": "black",
-                "images": "assets/images/inner-page/category/1.jpg"
+                "images": "assets/images/nandessentialsproducts/thandaiR.png"
             },
             {
                 "color": "saddlebrown",
-                "images": "assets/images/inner-page/category/9.jpg"
+                "images": "assets/images/nandessentialsproducts/thandaiL.png"
             }
         ]
     },
     {
         "id": 6,
         "img": "assets/images/nandessentialsproducts/chutneyF.png",
-        "name": "Beer Bottle",
+        "name": "Chutney Powder",
         "note": "Simply dummy text of the printing",
         "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
        
@@ -268,7 +264,7 @@
     {
         "id": 7,
         "img": "assets/images/nandessentialsproducts/pithiF.png",
-        "name": "Cosmetic Bottle",
+        "name": "Pithi Puri Masala",
         "note": "Simply dummy text of the printing",
         "discription": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
        

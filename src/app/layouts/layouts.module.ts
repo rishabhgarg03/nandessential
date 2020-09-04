@@ -45,12 +45,16 @@ import { ProductBoxComponent } from './e-commerce/product/widget/product-box/pro
 import { SuccessComponent } from './e-commerce/product/widget/success/success.component';
 import { NgxMasonryModule } from 'ngx-masonry';
 import { AboutUsComponent } from './e-commerce/product/about-us/about-us.component';
+import { MapPopupComponent } from './e-commerce/product/widget/map-popup/map-popup.component';
+import { ZoomGalleryComponent } from './e-commerce/product/widget/zoom-gallery/zoom-gallery.component';
+import { PortfolioGalleryComponent } from './e-commerce/product/widget/zoom-gallery/portfolio-gallery/portfolio-gallery.component';
+import { CreativeOneComponent } from './e-commerce/product/widget/creative-one/creative-one.component';
 
 const DEFAULT_SWIPER_CONFIG: SwiperConfigInterface = {};
 
 @NgModule({
   declarations: [
-    AboutUsComponent,
+    AboutUsComponent, MapPopupComponent, ZoomGalleryComponent, PortfolioGalleryComponent,CreativeOneComponent,
     ECommerceComponent, EcommerceBannerSliderComponent, EcommerceHeaderComponent, EcommerceProductSliderComponent, EcommerceParallaxBannerComponent, EcommerceProductTabComponent, EcommerceDownBannerComponent, EcommerceRecentStoryComponent, EcommerceFooterComponent, SidebarComponent, ProductDetailsComponent, ProductDetailComponent, CheckoutComponent, CompareComponent, CartComponent, CollectionLeftSidebarComponent, ColorComponent, BrandComponent, PriceComponent, CategoriesComponent, NewProductComponent, ProductBoxComponent, SuccessComponent],
 
   imports: [

@@ -1,0 +1,16 @@
+<app-ecommerce-header></app-ecommerce-header>
+<section class="resume portfolio-section zoom-gallery filter-section">
+  <div class="container">
+    <div class=" row">
+      <div class="col-lg-3 col-sm-6 isotopeSelector branding new " *ngFor="let product of products">
+          <div class="product-box">
+            <app-portfolio-gallery
+            [products]="product"
+            ></app-portfolio-gallery>
+          </div>
+      </div>
+  </div>
+    
+  </div>
+</section>
+<app-ecommerce-footer></app-ecommerce-footer>

@@ -5,11 +5,11 @@ import { AboutUsComponent } from './layouts/e-commerce/product/about-us/about-us
 export const routes: Routes = [
   {
     path: '',
-    redirectTo: 'e-commerce',
+    redirectTo: 'home',
     pathMatch: 'full',
   },
   {
-    path: 'e-commerce',
+    path: 'home',
     component: ECommerceComponent
   }
   

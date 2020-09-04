@@ -15,7 +15,7 @@ $e1: cubic-bezier(0.8, 0.00, 0.1, 1);
 $e2: cubic-bezier(0.600, 0.040, 0.980, 0.335);
 $er: linear;
 
-$color: transparent;
+$color: red ;
 $font: 'Abril Fatface', sans-serif;
 
 $slides: 4;
@@ -61,7 +61,7 @@ $images: url(https://cdn.pixabay.com/photo/2014/11/22/19/41/spices-541974_1280.j
 			width: 100%;
 			left: 50%;
 			transform: translate3d(-50%, 0, 0);
-			// background-color: $color;
+			background-color: $color;
 			pointer-events: auto;
 		}
 		&:before{

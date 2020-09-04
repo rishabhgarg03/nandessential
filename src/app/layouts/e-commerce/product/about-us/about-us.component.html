@@ -38,7 +38,7 @@
     </div>
 </section>
 <!-- about section end-->
-
+<app-creative-one></app-creative-one>
 <section class="event testimonial set-relative bg about-page">
     <div class="container">
         <div class="row">
@@ -50,37 +50,6 @@
                         </h2>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-10 offset-md-1 margin-b">
-                <owl-carousel-o [options]="aboutTestimonialCarouselOptions" class="testimonial">
-                    <ng-container *ngFor="let user of aboutTestimonial">
-                        <ng-template carouselSlide >
-                            <div class="p-t-30">
-                            <div class="col-lg-10 offset-lg-1 col-12">
-                                <div class="row">
-                                    <div class="col-xl-3 col-sm-4">
-                                        <div class="testimonial-msg set-relative">
-                                            <img [src]="user.img" alt=""
-                                                class="img-fluid avtar-img">
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-9 col-sm-8">
-                                        <div class="quotes set-relative m-b-30">
-                                            <img src="assets/images/event/testimonial/i1.png" alt=""
-                                                class="img-fluid set-abs left-quote">
-                                            <div class="quote-text">
-                                                <h5>{{user.content}}</h5>
-                                            </div>
-                                            <img src="assets/images/event/testimonial/i2.png" alt=""
-                                                class="img-fluid set-abs right-quote">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        </ng-template>
-                    </ng-container>
-                </owl-carousel-o>
             </div>
         </div>
     </div>

@@ -1,0 +1,77 @@
+<div class="isotopeContainer row">
+  <ng-container *ngIf="customizer=='all'">
+      <figure class="my-app-custom-image-with-desc p-width" >
+          <div class="isotopeSelector shoes fashion ">
+              <div class="overlay">
+                  <div class="border-portfolio">
+                      <div class="overlay-background">
+                          <i class="fa fa-plus" aria-hidden="true" (click)="open(content, products.id)" [attr.data-target]="'#quick-view'+products.id"
+                          data-toggle="modal"></i>
+                      </div>
+                      <img [src]="products.img" style="background-color: white;"/>
+                  </div>
+              </div>
+          </div>
+          <div class="portfolio-text" *ngIf="displayblock.displyBlock">
+                  <h3 class="head-text">
+                      Lorem Ipsum
+                  </h3>
+                  <h6 class="head-sub-text">
+                      Lorem Ipsum
+                  </h6>
+              </div>
+      </figure>
+  </ng-container>
+  <!-- <ks-modal-gallery [id]="1" [modalImages]="products" [plainGalleryConfig]="customPlainGalleryRowDescConfig"
+      [buttonsConfig]="buttonsConfigCustom">
+  </ks-modal-gallery> -->
+</div>
+<!-- pagination Start -->
+<!-- <div class="pagination_sec">
+  <div class="content_detail__pagination cdp">
+      <ul>
+          <li><a href="javascript:void(0)" class="prev"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="javascript:void(0)" class="active cdp_i">1</a></li>
+          <li><a href="javascript:void(0)" class="cdp_i">2</a></li>
+          <li><a href="javascript:void(0)" class="cdp_i">3</a></li>
+          <li><a href="javascript:void(0)" class="next"><i class="fa fa-angle-double-right"
+                      aria-hidden="true"></i></a></li>
+      </ul>
+  </div>
+</div> -->
+<!-- pagination End -->
+
+ <ng-template #content let-modal>
+    <div class="modal-body">
+      <button type="button" class="close" (click)="modal.close('Save click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="row">
+        <div class="col-lg-6  col-xs-12">
+          <div class="quick-view-img">
+            <img [src]="products.img" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 rtl-text">
+          <div class="product-right">
+            <h2>{{products.name}}</h2>
+            <!-- <h3>{{products.price | currency:productsService?.currency:'symbol'}} <del><span class="money">{{products.salePrice | currency:productsService?.currency:'symbol'}}</span></del> </h3> -->
+            
+            <div class="border-product">
+              <h6 class="product-title">product details</h6>
+              <p>{{products.discription | slice:0:200}}</p>
+            </div>
+            <div class="product-description border-product">
+            
+            </div>
+            <div class="product-buttons">
+              <a style="background:linear-gradient(to right, rgb(67, 206, 162), rgb(24, 90, 157))"
+                [routerLink]="['/e-commerce/left-sidebar/product', products.id]" (click)="modal.close('Save click')"
+                class="btn btn-default primary-btn radius-5">view detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ng-template>

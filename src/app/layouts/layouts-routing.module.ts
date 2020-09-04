@@ -8,6 +8,7 @@ import { CartComponent } from './e-commerce/product/widget/cart/cart.component';
 import { CollectionLeftSidebarComponent } from './e-commerce/product/widget/collection/collection-left-sidebar/collection-left-sidebar.component';
 import { SuccessComponent } from './e-commerce/product/widget/success/success.component';
 import { AboutUsComponent } from './e-commerce/product/about-us/about-us.component';
+import { ZoomGalleryComponent } from './e-commerce/product/widget/zoom-gallery/zoom-gallery.component';
 
 const routes: Routes = [
   {
@@ -32,18 +33,17 @@ const routes: Routes = [
     }
   },
   {
-    path: 'e-commerce/about-us',
+    path: 'about-us',
     component: AboutUsComponent,
-    data: {
-      title: "Checkout Page| Unice Landing Page"
-    }
+  },
+  {
+    path: 'products',
+    component: ZoomGalleryComponent,
   },
   {
     path: 'e-commerce/checkout/success',
     component: SuccessComponent,
-    data: {
-      title: "Success Page| Unice Landing Page"
-    }
+  
   },
   {
     path: 'e-commerce/compare',
